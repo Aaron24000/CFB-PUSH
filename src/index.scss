@@ -1,0 +1,67 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=B612&display=swap");
+
+body {
+  font-family: "B612", sans-serif;
+  overflow-x: hidden;
+}
+
+// body {
+//   background: #333;
+//   color: #fff;
+// }
+
+.custom-img {
+  height: 100vh;
+  object-fit: cover;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("./components/img/rojan-maharjan-69_fhCbQ040-unsplash.jpg");
+  /* Parallax effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  background-position: 0 -200px;
+}
+
+#home-showcase {
+  background: url('./components//img/emma-dau-zc6ezUR4-8I-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  .darker-overlay {
+    // position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background:rgba(0, 0, 0, 0.7);
+    background-position: 0 -200px;
+  }
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+
+.aggie-photo {
+  background: url('./components//img/andrew-gearhart-5k7B1Dv4r3E-unsplash.jpg');
+  background-position: -1600px -2400px;
+}
