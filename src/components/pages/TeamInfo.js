@@ -98,7 +98,8 @@ const TeamInfo = (props) => {
                 <div className="card-header">
                   <h4>List Of Conferences</h4>
                 </div>
-                <table className="table table-responsive table-striped">
+                <div className="table-responsive">
+                <table className="table table-striped">
                   <thead className="table-dark">
                     <tr>
                       <th>School</th>
@@ -131,6 +132,7 @@ const TeamInfo = (props) => {
                       ))}
                   </tbody>
                 </table>
+                </div>
               </div>
             </div>
           </div>
