@@ -24,13 +24,13 @@ function App() {
         </Route>
         </Switch>
       </div>
-      <Route path="/conferences">
+      <Route exact path="/conferences">
         <Conferences />
       </Route>
-      <Route path="/stadiums">
+      <Route exact path="/stadiums">
         <Stadiums />
       </Route>
-      <Route path="/team-info">
+      <Route exact path="/team-info">
         <TeamInfo />
       </Route>
       <Bottom />
