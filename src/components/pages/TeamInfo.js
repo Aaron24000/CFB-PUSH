@@ -120,8 +120,8 @@ const TeamInfo = (props) => {
                           <td>{conferences.school}</td>
                           <td>{conferences.mascot}</td>
                           <td>{conferences.abbreviation}</td>
-                          <td>{conferences.color}</td>
-                          <td>{conferences.alt_color}</td>
+                          <td style={{ color: conferences.color}}>{conferences.color}</td>
+                          <td style={{ color: conferences.alt_color}}>{conferences.alt_color}</td>
                           <td><img src={conferences.logos[0]} alt={conferences.name} style={{width: '40px'}}></img></td>
                           <td>{conferences.location.name}</td>
                           <td>{conferences.location.city}</td>
