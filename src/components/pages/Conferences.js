@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import tokenData from "../../config.json";
 import { Fragment } from "react";
 
 const Conferences = () => {
@@ -12,7 +11,7 @@ const Conferences = () => {
       .get("/conferences", {
         headers: {
           contentType: "application/json",
-          Authorization: `Bearer ${tokenData.API_KEY}`,
+          Authorization: `Bearer Sdnuv8U0ma/1UAzk8BRtp59LBuqq6Xzqcq1yg4cVng19f80mek+nja4yNpz1zbwh`,
         },
       })
       .then((response) => {
